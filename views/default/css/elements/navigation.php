@@ -154,13 +154,12 @@
 /* ***************************************
 	SITE MENU
 *************************************** */
-.elgg-menu-site {
-	z-index: 1;
-}
 .elgg-menu-site-default {
-	float: right;
+	position: absolute;
+	top: 60px;
+	right: 0;
 	height: 23px;
-	margin-top: 60px;
+	z-index: 1;
 }
 .elgg-menu-site > li > a {
 	font-family: Helvetica,Arial;
@@ -177,46 +176,40 @@
 	float: left;
 	margin-right: 1px;
 }
-
 .elgg-menu-site-default > li > a {
 	color: #8b8b8b;
 }
-
-.elgg-menu-site > li > ul {
-	display: none;
-}
-
-.elgg-menu-site > li:hover > ul {
-
-}
-
 .elgg-menu-site-default > .elgg-state-selected > a,
 .elgg-menu-site-default > li:hover > a {
 	color: #7c0425;
 }
 
-.elgg-menu-site-more {
-	position: relative;
-	left: -1px;
-/*	min-width: 150px; */
-	border: 1px solid #999;
-	border-top: 0;
+.elgg-menu-site > li > ul {
+	display: none;
 }
-
-.elgg-menu-site-more > li > a {
-	background-color: white;
-	color: #555;
+.elgg-menu-site > li:hover > ul {
+	display: block;
 }
-
-.elgg-menu-site-more > li > a:hover {
-	background: #4690D6;
-	color: white;
-}
-
 .elgg-more > a:before {
 	content: "\25BC";
 	font-size: smaller;
 	margin-right: 4px;
+}
+.elgg-more {
+	width: 110px;
+}
+.elgg-menu-site-more {
+	width: 120px;
+	position: relative;
+	left: 0px;
+	background-color: white;
+	padding-bottom: 5px;
+}
+.elgg-menu-site-more > li > a {
+	color: #8b8b8b;
+}
+.elgg-menu-site-more > li > a:hover {
+	color: #7c0425;
 }
 
 /* ***************************************
