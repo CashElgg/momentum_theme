@@ -91,3 +91,7 @@ body {
 .elgg-page-footer a:hover {
 	color: #ccc;
 }
+
+.momentum-walled-garden {
+	margin-top: 90px;
+}
