@@ -126,7 +126,7 @@
 }
 
 .elgg-menu-topbar > li > a:hover {
-	color: #4690D6;
+	color: #aaa;
 	text-decoration: none;
 }
 

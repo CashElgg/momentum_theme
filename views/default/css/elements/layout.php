@@ -10,9 +10,6 @@
 /***** DEFAULT LAYOUT ******/
 <?php // the width is on the page rather than topbar to handle small viewports ?>
 body {
-	background: #000;
-}
-.elgg-page {
 	background: #fff;
 }
 
@@ -83,10 +80,10 @@ body {
 /***** PAGE FOOTER ******/
 .elgg-page-footer {
 	margin-top: 20px;
-	background: #000;
-	padding-top: 15px;
 }
 .elgg-page-footer > .elgg-inner {
+	padding-top: 10px;
+	border-top: 1px solid #ccc;
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
