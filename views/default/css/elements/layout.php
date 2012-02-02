@@ -46,7 +46,6 @@ body {
 	margin: 0 auto;
 	position: relative;
 	height: 120px;
-	/*border-bottom: 1px dotted #aaa;*/
 }
 .logo {
 	margin-top: 10px;

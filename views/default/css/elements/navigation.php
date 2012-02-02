@@ -156,7 +156,7 @@
 *************************************** */
 .elgg-menu-site-default {
 	position: absolute;
-	top: 60px;
+	top: 54px;
 	right: 0;
 	height: 23px;
 	z-index: 1;
